@@ -872,3 +872,102 @@ body, html{
 	}
   }
   
+
+  /* =======================
+   📱 PHONE (<= 600px)
+======================= */
+@media screen and (max-width: 600px) {
+	.slide--content,
+	.slide--content--one {
+	  padding: 1em;
+	}
+  
+	.first--slide .slide--content h1,
+	.slide--content--one h1 {
+	  font-size: 2em;
+	}
+  
+	.first--slide .slide--content h2,
+	.slide--content--one h2 {
+	  font-size: 1.5em;
+	}
+  
+	.second--canvas .content {
+	  font-size: 2em;
+	  top: 35%;
+	}
+  
+	.third--canvas .center--line h1 {
+	  font-size: 2em;
+	}
+  
+	.photo--container {
+	  width: 90%;
+	  padding: 1em;
+	  max-width: 300px;
+	}
+  
+	.photo--container img {
+	  width: 60%;
+	  max-width: 130px;
+	}
+  
+	.photo--container h2 {
+	  font-size: 1.2em;
+	}
+  
+	.photo--container p {
+	  font-size: 0.9em;
+	}
+  }
+  
+  /* ========================
+	 📱 TABLET (601px–900px)
+  ======================== */
+  @media screen and (min-width: 601px) and (max-width: 900px) {
+	.slide--content h1,
+	.slide--content--one h1 {
+	  font-size: 3.5em;
+	}
+  
+	.slide--content h2,
+	.slide--content--one h2 {
+	  font-size: 2.5em;
+	}
+  
+	.photo--container img {
+	  width: 150px;
+	}
+  
+	.photo--container h2 {
+	  font-size: 1.4em;
+	}
+  }
+  
+  /* =========================
+	 💻 LAPTOP (901px and up)
+  ========================= */
+  @media screen and (min-width: 901px) {
+	.slide--content h1,
+	.slide--content--one h1 {
+	  font-size: 5em;
+	}
+  
+	.slide--content h2,
+	.slide--content--one h2 {
+	  font-size: 4em;
+	}
+  
+	.photo--container img {
+	  width: 180px;
+	}
+  
+	.photo--container h2 {
+	  font-size: 1.5em;
+	}
+  }
+  
+
+
+
+  
